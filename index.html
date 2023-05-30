@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./Img/Agenda Contato.png" alt="Representação contato, agenda.">
+            <h2>Contatos Web</h2>
+        </header>
+        <div class="boxes">
+            <div class="box">
+                <form id="Form" class="form">
+                    <div class="form-control">
+                        <label for="Name">Nome do Contato:</label>
+                        <input type="text" id="Name" placeholder="Digite o nome do contato..." />
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Mensagem de erro</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="Email">Email do Contato:</label>
+                        <input type="text" id="Email" placeholder="Digite o email do contato (opcional)..." />
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Mensagem de erro</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="phone">Número Do Contato:</label>
+                        <input type="text" id="phone" placeholder="Digite o numero do contato..." />
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Mensagem de erro</small>
+                    </div>
+                    <button>Salvar</button>
+                </form>
+            </div>
+            <div class="box">
+                <div class="table-wrapper">
+                    <table cellspacing="0" class="table" id="Table">
+                        <thead>
+                            <tr>
+                                <th>Nome </th>
+                                <th>Email </th>
+                                <th>Número</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a6bffd97e0.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
