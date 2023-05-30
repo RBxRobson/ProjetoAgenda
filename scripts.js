@@ -110,7 +110,7 @@ function addLinhas() {
 
 
     if (cl3.includes(phoneContact.value)) {
-        alert(`O email ${phoneContact.value} já está vinculado a outro contato.`)
+        alert(`O número ${phoneContact.value} já está vinculado a outro contato.`)
     } else {
         cl1.push(nameContact.value);
         cl2.push(emailContact.value);
